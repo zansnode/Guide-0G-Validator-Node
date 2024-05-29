@@ -191,6 +191,11 @@ sudo systemctl stop 0gchaind
 sudo systemctl restart 0gchaind
 ```
 
+### Check Log
+```
+sudo journalctl -u 0gchaind -f -o cat
+```
+
 ### Disable Indexing
 ```
 sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.0gchain/config/config.toml
