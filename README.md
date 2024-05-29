@@ -1,4 +1,4 @@
-# Guide-0G-Validator-Node
+# Guide-0G-Node-Validator
 
 ## Installation Guide
 
