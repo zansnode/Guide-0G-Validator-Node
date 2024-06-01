@@ -168,7 +168,7 @@ Note: DONT FORGET SAVE YOUR PRIV_KEY_VALIDATOR.JSON, THIS IS THE ONLY WAY TO RES
 
 ### Delegate to your validator
 ```
-0gchaind tx staking delegate $(0gchaind keys show WALLET_NAME --bech val -a) 1000000ua0gi --from wallet -y
+0gchaind tx staking delegate $(0gchaind keys show wallet --bech val -a) 2500000ua0gi --from wallet --chain-id zgtendermint_16600-1 --gas-prices 0.0025ua0gi --gas-adjustment 1.5 --gas auto -y 
 ```
 
 ### Unjail Validator 
